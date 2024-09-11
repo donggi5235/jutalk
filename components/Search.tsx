@@ -1,6 +1,5 @@
 "use client";
 import { Search as SearchIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 const Search = () => {
   return (
@@ -13,9 +12,6 @@ const Search = () => {
           className="w-full rounded-md bg-muted pl-10 pr-4 h-full focus:outline-none focus:ring-1 focus:ring-primary"
         />
       </div>
-      <Button className="h-full p-4 bg-neutral-800 text-white hover:bg-neutral-700">
-        검색
-      </Button>
     </div>
   );
 };

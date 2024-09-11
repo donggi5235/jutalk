@@ -6,7 +6,25 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --red: #fa2942;
   --purple: #BB86FC;
+  --sky: #49c7db;
+}
+
+[class*="ellipsis-"] {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  text-overflow: ellipsis;
+}
+
+.ellipsis-2 {
+  -webkit-line-clamp: 2;
+}
+
+.ellipsis-3 {
+  -webkit-line-clamp: 3;
 }
 
 @media (prefers-color-scheme: dark) {

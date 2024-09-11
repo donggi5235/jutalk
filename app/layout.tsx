@@ -28,7 +28,9 @@ export default function RootLayout({
         >
           <div className="flex">
             <LeftMenu />
-            {children}
+            <div className="w-[calc(100%-300px)]">
+              {children}
+            </div>
           </div>
         </ThemeProvider>
       </body>

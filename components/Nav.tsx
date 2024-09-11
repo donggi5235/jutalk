@@ -19,8 +19,8 @@ const Nav = () => {
       {
         icon: <FiGrid size={24} />,
         label: "취중톡톡",
-        isActive: pathname === "/intro",
-        href: "/intro",
+        isActive: pathname === "/story",
+        href: "/story",
       },
       {
         icon: <FiMessageCircle size={24} />,
